@@ -1,0 +1,23 @@
+{
+  "name": "minimal-remotion-cloudrun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "remotion preview src/HelloWorld.tsx",
+    "build": "remotion render src/HelloWorld.tsx HelloWorld out.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/cli": "^4.0.231",
+    "@remotion/renderer": "^4.0.231",
+    "@remotion/shapes": "^4.0.231",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12"
+  }
+}
